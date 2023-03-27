@@ -1,3 +1,2 @@
 # Threadlab
-Lab 5 CS 33 with Tony Nowatzski Fall 2022. Required us to optimize some histogram operations using multi-threading. I scored best in my class in terms of energy-delay improvement -> geomean 6.00 speedup using 8 threads across normal (8.6) and pathological case (4.2).
-At the bottom are my notes and my attempts (successful) to use methods like semaphores, barriers, readers-writers blocks and to create additional threads and attempt even more parallelism.
+Scored best in class of 250 students. Energy delay improvement of 8.6 in normal and 4.2 in pathological case after synchronizing usage of 8 threads, using `pthreads.h` library in C. 
